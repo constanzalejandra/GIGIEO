@@ -1,0 +1,23 @@
+@import "../abstracts/variables";
+.navbar {
+  .navbar-brand {
+    color: $main-black;
+    font-weight: 500;
+    font-size: $xx-large;
+  }
+  i {
+    color: $main-black;
+  }
+
+  .navbar-toggler {
+    border: none !important;
+  }
+}
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end !important;
+  .nav-link {
+    i {
+      color: $main-black;
+    }
+  }
+}

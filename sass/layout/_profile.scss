@@ -1,0 +1,31 @@
+@import "../abstracts/variables";
+.Perfil {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  .Perfil__imagen {
+    height: 100px;
+    width: 100px;
+    margin-left: 10%;
+  }
+  .Perfil__info {
+    display: block;
+    margin-left: 20px;
+    .Perfil__usuario {
+      display: block;
+      font-weight: bold;
+      color: $main-black;
+      font-size: $xx-large;
+    }
+    .Perfil__seguidore {
+      color: $grey;
+    }
+  }
+  .Perfil__botones {
+    position: absolute;
+    right: 5%;
+  }
+}

@@ -1,0 +1,7 @@
+@import "../abstracts/variables";
+.Cover {
+  background-image: url(../../assets/images/image-banner.png);
+  width: 100%;
+  height: 250px;
+  background-size: contain;
+}

@@ -1,0 +1,14 @@
+@import "../abstracts/variables";
+.gigeo-button {
+  padding: 10px;
+  color: $white;
+  border: none !important;
+  width: 120px;
+}
+
+.button-info {
+  background-color: $info !important;
+}
+.button-danger {
+  background-color: $danger !important;
+}

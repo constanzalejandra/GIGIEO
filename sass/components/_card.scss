@@ -1,0 +1,14 @@
+@import "../abstracts/variables";
+.card {
+  border: none !important;
+  margin-bottom: 30px;
+  .card-title {
+    color: $main-black;
+    font-size: $xx-large;
+    font-weight: bold;
+  }
+  .card-text {
+    color: $grey;
+    font-weight: 400;
+  }
+}
